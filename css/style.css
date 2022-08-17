@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+main{
+
+    max-width: 350px;
+    margin: 0 auto;
+
+}
+
+.conteiner{
+
+    background-color: hsl(216, 50%, 16%);
+    margin: 2rem 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+/*  STYLE PHOTOS MAIN */
+.image_top{
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.image_top img{
+
+    width: 100%;
+    display: block;
+
+}
+
+.overlay{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    background-color: hsla(178, 100%, 50%, 0.5);
+
+}
+
+.overlay img{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+
+}
+
+.image_top:hover .overlay{
+
+    display: block;
+
+}
+
+/* TEXT */
+
+a{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+
+}
+
+a:hover{
+
+    color: hsl(178, 100%, 50%);
+
+}
+
+p{
+
+    color: hsl(215, 51%, 70%);
+
+}
+
+.info{
+
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.eth, .days{
+
+    display: flex;
+
+}
+
+.eth p{
+
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 7px;
+
+}
+
+hr{
+
+    border-color: hsl(215, 32%, 27%);
+
+}
+
+.author{
+
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.author img{
+
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 1px solid #fff;
+
+}
+
+.attribution{ 
+
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a{
+
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+
+
+}
